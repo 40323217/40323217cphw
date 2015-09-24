@@ -66,7 +66,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915155634.1"><vh>@clean cadpaw1.html</vh>
+<v t="amd.20150915155634.1" a="E"><vh>@clean cadpaw1.html</vh>
 <v t="amd.20150915155634.2" a="E"><vh>html 標註</vh>
 <v t="amd.20150915155634.3" a="E"><vh>head</vh>
 <v t="amd.20150915155634.4"><vh>title - 標題</vh></v>
@@ -266,7 +266,7 @@
 </v>
 </v>
 </v>
-<v t="ibm.20150918175403.1"><vh>@clean cpw1.html</vh>
+<v t="ibm.20150918175403.1" a="E"><vh>@clean cpw1.html</vh>
 <v t="ibm.20150918175403.2"><vh>檔案說明</vh></v>
 <v t="ibm.20150918175403.3" a="E"><vh>html 標註</vh>
 <v t="ibm.20150918175403.4" a="E"><vh>body 標註</vh>
@@ -284,7 +284,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -1988,9 +1988,9 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 @others
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+    &lt;h1&gt;自評分數75分&lt;/h1&gt;
+    &lt;p&gt;我發覺在git branch (git checkout) 這點很重要在推送資料時才知道是推送至分支還是master因為我在這點花了很多時間才弄懂，master檔案要推到master，分支的要推到分支，都要非常清楚自己在每個步驟的重要性一步一步的達到老師的要求，更重要的是英文因為很多第一首的資料都是以英文呈現另外網路上資料都是以英文呈現，看不懂就沒辦法知道解決方法。&lt;/p&gt;
+   
 &lt;/section&gt;
 				
 </t>
@@ -2021,15 +2021,14 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+    &lt;h1&gt;四設計二乙cpwork&lt;/h1&gt;
+    &lt;p&gt;40323217 李伯皇 2015/9/24&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+    &lt;h1&gt;CP筆記&lt;/h1&gt;
+    &lt;p&gt;利用Git和Github來達到版次管理，並且在近端測試再把資料推送至遠端，在電腦輔助下把重複性的動作藉由批次檔達到我們的需求。第一週重點: git add . -&gt; git commit  -m "推送依據" -&gt; git push origin master(非常重要,推送至起初的master) 第二週重點: 1.git clone 網址 -&gt; revel貼上(除README.md) -&gt; push回去遠端 -&gt; 在推送前要先建分支 -&gt; git branch 分支 -&gt; git checkout 分支名子 -&gt; revel-gh-pages 覆蓋 -&gt;推回去所建立的分支 -&gt;利用leo進行檔案更改. 補充筆記: 1. git config --global.user "名子" 和 git config --global.email"輸入信箱" 這兩點是要確認身分 2. pip install pelican markdown 是下載模組.  &lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
