@@ -39,8 +39,8 @@
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
+<v t="leo.20151009110945.1"><vh>@edit 2015cphww4.md</vh></v>
 </v>
-<v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
 <v t="amd.20150913233943.2" a="E"><vh>html</vh>
 <v t="amd.20150913233943.3" a="E"><vh>head</vh>
@@ -284,7 +284,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -296,6 +296,21 @@
 </v>
 </v>
 <v t="amd.20150915211351.15"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151009111607.1" a="E"><vh>@clean simplest2.html</vh>
+<v t="leo.20151009111607.2"><vh>檔案說明</vh></v>
+<v t="leo.20151009111607.3" a="E"><vh>html 標註</vh>
+<v t="leo.20151009111607.4" a="E"><vh>body 標註</vh>
+<v t="leo.20151009111607.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20151009111607.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20151009111607.7"><vh>有關我的作業</vh></v>
+<v t="leo.20151009111607.8"><vh>作業任務一</vh></v>
+<v t="leo.20151009111607.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="leo.20151009111607.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -2135,7 +2150,6 @@ ip.config.ProfileDir </t>
 <t tx="amd.20150919113340.1"></t>
 <t tx="amd.20150919113957.1"></t>
 <t tx="amd.20150919114010.1"></t>
-<t tx="amd.20150919120205.1"></t>
 <t tx="amd.20150919124128.1">@language python
 import os
 os.system('''pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-bootstrap3
@@ -2236,5 +2250,76 @@ sudo pip3 install IPython[notebook]==3.2.1
     &lt;p&gt;線上教材&lt;/p&gt;
     &lt;p&gt;影音教材&lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20151009111607.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20151009111607.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20151009111607.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20151009111607.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20151009111607.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20151009111607.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151009111607.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151009111607.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;四設計二乙cpwork&lt;/h1&gt;
+    &lt;p&gt;40323217 李伯皇 2015/10/9&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20151009111607.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;CP筆記&lt;/h1&gt;
+    &lt;p&gt;利用Git和Github來達到版次管理，並且在近端測試再把資料推送至遠端，在電腦輔助下把重複性的動作藉由批次檔達到我們的需求。第一週重點: git add . -&gt; git commit  -m "推送依據" -&gt; git push origin master(非常重要,推送至起初的master) 第二週重點: 1.git clone 網址 -&gt; revel貼上(除README.md) -&gt; push回去遠端 -&gt; 在推送前要先建分支 -&gt; git branch 分支 -&gt; git checkout 分支名子 -&gt; revel-gh-pages 覆蓋 -&gt;推回去所建立的分支 -&gt;利用leo進行檔案更改. 補充筆記: 1. git config --global.user "名子" 和 git config --global.email"輸入信箱" 這兩點是要確認身分 2. pip install pelican markdown 是下載模組.  &lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151009111607.9">&lt;section&gt;
+    &lt;h1&gt;自評分數75分&lt;/h1&gt;
+    &lt;p&gt;我發覺在git branch (git checkout) 這點很重要在推送資料時才知道是推送至分支還是master因為我在這點花了很多時間才弄懂，master檔案要推到master，分支的要推到分支，都要非常清楚自己在每個步驟的重要性一步一步的達到老師的要求，更重要的是英文因為很多第一首的資料都是以英文呈現另外網路上資料都是以英文呈現，看不懂就沒辦法知道解決方法。&lt;/p&gt;
+   
+&lt;/section&gt;
+				
+</t>
 </tnodes>
 </leo_file>
