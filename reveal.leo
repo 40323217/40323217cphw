@@ -2310,15 +2310,15 @@ sudo pip3 install IPython[notebook]==3.2.1
 </t>
 <t tx="leo.20151009111607.8">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;CPW4筆記&lt;/h1&gt;
-    &lt;p&gt;1.Sketch → Tangent Arc at Point 選擇兩條線所相接的點,可以使那個點形成圓角並且拖曳相切的點可以改變半徑大小.2.New Group → Extrude, or choose the equivalent button from the toolbar.可以使你所畫的圖,往+x方向長料或者從工具列選擇長料.3.Change the extrusion depth by dragging a point on the extruded face.
-拉動所指定的面可以使所選擇的面身長或縮短
+    &lt;p&gt;1.Sketch → Tangent Arc at Point 選擇兩條線所相接的點,可以使那個點形成圓角並且拖曳相切的點可以改變半徑大小.2.New Group → Extrude, or choose the equivalent button from the toolbar.可以使你所畫的圖,往+x方向長料或者從工具列選擇長料.3.Change the extrusion depth by dragging a point on the extruded face.拉動所指定的面可以使所選擇的面身長或縮短4.New Group -&gt; Sketch in 3D(Shift + 3 建立新平面)5.New Group → Sketch in New Workplane 用在孔的時候必須選擇新平面.
+
   &lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
 <t tx="leo.20151009111607.9">&lt;section&gt;
     &lt;h1&gt;自評分數78分&lt;/h1&gt;
-    &lt;p&gt;基準面沒有先建立好的話在長料的過程中很容易發生問題,假如在執行過程中有不符合軟體規定會產生破圖(圖框會呈現紅色)所以在執行軟體繪製過程中要特別注意這點. &lt;/p&gt;
+    &lt;p&gt;基準面沒有先建立好的話在長料的過程中很容易發生問題,假如在執行過程中有不符合軟體規定會產生破圖(圖框會呈現紅色)所以在執行軟體繪製過程中要特別注意這點,再來就是在畫肋的時候假如沒有先選擇基準點下去畫我發現明明在XY平面下所畫的盡然從側視圖看會跑到後面去(意思是沒有在我所預料的地方下畫圖),所以在畫肋的時候基準點須點好在中線下畫才能夠達到自己的預設. &lt;/p&gt;
    
 &lt;/section&gt;
 				
