@@ -5,7 +5,8 @@
 
 &lt;p&gt;此圖為使用說明方式所繪製出來的&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://copy.com/FMrWAnbMxzu8t2b3"width="450"height="450"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br / &gt;
+&lt;img src="https://copy.com/FMrWAnbMxzu8t2b3"width="300"height="300"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="simplest2.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;使用 H1 標題&lt;/h1&gt;
 &lt;p&gt;文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視連續的資料&lt;/p&gt;
