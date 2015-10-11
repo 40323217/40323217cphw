@@ -2303,20 +2303,22 @@ sudo pip3 install IPython[notebook]==3.2.1
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;四設計二乙cpwork1223123&lt;/h1&gt;
-    &lt;p&gt;40323217 李伯皇 2015/10/9&lt;/p&gt;		
+    &lt;h1&gt;四設計二乙cpwork&lt;/h1&gt;
+    &lt;p&gt;40323217 李伯皇 2015/10/11&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="leo.20151009111607.8">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;CP筆記123123&lt;/h1&gt;
-    &lt;p&gt;利用Git和Github來達到版次管理，並且在近端測試再把資料推送至遠端，在電腦輔助下把重複性的動作藉由批次檔達到我們的需求。第一週重點: git add . -&gt; git commit  -m "推送依據" -&gt; git push origin master(非常重要,推送至起初的master) 第二週重點: 1.git clone 網址 -&gt; revel貼上(除README.md) -&gt; push回去遠端 -&gt; 在推送前要先建分支 -&gt; git branch 分支 -&gt; git checkout 分支名子 -&gt; revel-gh-pages 覆蓋 -&gt;推回去所建立的分支 -&gt;利用leo進行檔案更改. 補充筆記: 1. git config --global.user "名子" 和 git config --global.email"輸入信箱" 這兩點是要確認身分 2. pip install pelican markdown 是下載模組.   &lt;/p&gt;
+    &lt;h1&gt;CPW4筆記&lt;/h1&gt;
+    &lt;p&gt;1.Sketch → Tangent Arc at Point 選擇兩條線所相接的點,可以使那個點形成圓角並且拖曳相切的點可以改變半徑大小.2.New Group → Extrude, or choose the equivalent button from the toolbar.可以使你所畫的圖,往+x方向長料或者從工具列選擇長料.3.Change the extrusion depth by dragging a point on the extruded face.
+拉動所指定的面可以使所選擇的面身長或縮短
+  &lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
 <t tx="leo.20151009111607.9">&lt;section&gt;
-    &lt;h1&gt;自評分數75分123123&lt;/h1&gt;
-    &lt;p&gt;我發覺在git branch (git checkout) 這點很重要在推送資料時才知道是推送至分支還是master因為我在這點花了很多時間才弄懂，master檔案要推到master，分支的要推到分支，都要非常清楚自己在每個步驟的重要性一步一步的達到老師的要求，更重要的是英文因為很多第一首的資料都是以英文呈現另外網路上資料都是以英文呈現，看不懂就沒辦法知道解決方法。&lt;/p&gt;
+    &lt;h1&gt;自評分數78分&lt;/h1&gt;
+    &lt;p&gt;基準面沒有先建立好的話在長料的過程中很容易發生問題,假如在執行過程中有不符合軟體規定會產生破圖(圖框會呈現紅色)所以在執行軟體繪製過程中要特別注意這點. &lt;/p&gt;
    
 &lt;/section&gt;
 				
