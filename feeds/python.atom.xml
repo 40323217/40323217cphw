@@ -3,10 +3,12 @@
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="simplest3.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="simplest3.html" target="_blank"&gt;作業一投影片&lt;/a&gt;
+&lt;p&gt;&lt;br / &gt;
+&lt;a href="simplest3.html" target="_blank"&gt;作業一投影片&lt;/a&gt;
 &lt;p&gt;零件圖(一)&lt;/p&gt;
 &lt;img src="https://copy.com/s8GtnAJMFAN8L9kM"width="300"height="300"&gt;
 &lt;br / &gt;
+&lt;iframe src="https://vimeo.com/142729686" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;零件圖(二)&lt;/p&gt;
 &lt;img src="https://copy.com/YNxVf2GqISQKs687"width="300"height="300"&gt;
 &lt;br / &gt;
