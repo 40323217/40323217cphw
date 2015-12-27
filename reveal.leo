@@ -43,6 +43,7 @@
 <v t="40323217.20151016184020.1"><vh>@edit 2015cphww5.md</vh></v>
 <v t="40323217.20151227211737.1"><vh>@edit 2015cphww11.md</vh></v>
 <v t="40323217.20151227212616.1"><vh>@edit 2015cphww12.md</vh></v>
+<v t="40323217.20151227213601.1"><vh>@edit 2015cphww13.md</vh></v>
 </v>
 <v t="40323217.20151016184003.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -348,7 +349,7 @@
 </v>
 </v>
 </v>
-<v t="40323217.20151227212653.1"><vh>@clean simplest12.html</vh>
+<v t="40323217.20151227212653.1" a="E"><vh>@clean simplest12.html</vh>
 <v t="40323217.20151227212653.2"><vh>檔案說明</vh></v>
 <v t="40323217.20151227212653.3" a="E"><vh>html 標註</vh>
 <v t="40323217.20151227212653.4" a="E"><vh>body 標註</vh>
@@ -360,6 +361,21 @@
 </v>
 </v>
 <v t="40323217.20151227212653.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="40323217.20151227213731.1" a="E"><vh>@clean simplest13.html</vh>
+<v t="40323217.20151227213731.2"><vh>檔案說明</vh></v>
+<v t="40323217.20151227213731.3" a="E"><vh>html 標註</vh>
+<v t="40323217.20151227213731.4" a="E"><vh>body 標註</vh>
+<v t="40323217.20151227213731.5" a="E"><vh>div class="reveal"</vh>
+<v t="40323217.20151227213731.6" a="E"><vh>div class="slides"</vh>
+<v t="40323217.20151227213731.7"><vh>有關我的作業</vh></v>
+<v t="40323217.20151227213731.8"><vh>作業任務一</vh></v>
+<v t="40323217.20151227213731.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="40323217.20151227213731.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -775,6 +791,84 @@
 <t tx="40323217.20151227212653.9">&lt;section&gt;
     &lt;h1&gt;自評分數85分&lt;/h1&gt;
     &lt;p&gt;123121561153123&lt;/p&gt;
+   
+&lt;/section&gt;
+				
+</t>
+<t tx="40323217.20151227213731.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="40323217.20151227213731.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="40323217.20151227213731.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="40323217.20151227213731.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="40323217.20151227213731.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="40323217.20151227213731.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323217.20151227213731.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323217.20151227213731.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;四設計二乙CPwork&lt;/h1&gt;
+    &lt;p&gt;40323217 李伯皇 2015/12/27&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="40323217.20151227213731.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;CPW13筆記&lt;/h1&gt;
+&lt;p&gt;
+1.使用cero畫圖並組立，小組分配
+&lt;br / &gt;
+2.檔案上傳至github並且在小組網誌上能夠顯示，還有把自己所畫零件轉乘.STL檔顯示至班級網站上。
+&lt;br / &gt;
+3.運用Onshape把自己所分配到的零件畫出來，及輸出零件圖和影片。
+
+  &lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="40323217.20151227213731.9">&lt;section&gt;
+    &lt;h1&gt;自評分數85分&lt;/h1&gt;
+    &lt;p&gt;Onshape是一個線上繪圖軟體，但由於目前是開發第一代所以使用上還沒有那麼方便，但是由於有版本控制、使用者紀錄、同步控制等優點讓我們在使用上非常方便，但是我發覺再組合上沒有向CERO一樣好，CERO只要指定軸跟面就可以組合但是Onshape需要用轉軸而且在拉身上沒有像Cero一樣能夠把軸跟面分得很清楚，但我相信每個軟體都有它的優點。&lt;/p&gt;
    
 &lt;/section&gt;
 				
