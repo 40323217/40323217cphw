@@ -349,7 +349,7 @@
 </v>
 </v>
 </v>
-<v t="40323217.20151227212653.1" a="E"><vh>@clean simplest12.html</vh>
+<v t="40323217.20151227212653.1"><vh>@clean simplest12.html</vh>
 <v t="40323217.20151227212653.2"><vh>檔案說明</vh></v>
 <v t="40323217.20151227212653.3" a="E"><vh>html 標註</vh>
 <v t="40323217.20151227212653.4" a="E"><vh>body 標註</vh>
@@ -364,7 +364,7 @@
 </v>
 </v>
 </v>
-<v t="40323217.20151227213731.1" a="E"><vh>@clean simplest13.html</vh>
+<v t="40323217.20151227213731.1"><vh>@clean simplest13.html</vh>
 <v t="40323217.20151227213731.2"><vh>檔案說明</vh></v>
 <v t="40323217.20151227213731.3" a="E"><vh>html 標註</vh>
 <v t="40323217.20151227213731.4" a="E"><vh>body 標註</vh>
@@ -709,15 +709,18 @@
 </t>
 <t tx="40323217.20151227211938.8">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;CPW11筆記&lt;/h1&gt;
-&lt;p&gt;123123123
-
+&lt;p&gt;
+1.設定個人Leo和班級Leo。
+&lt;br / &gt;
+2.畫核桃機零件圖及組合核桃機而核桃機零件可由小組分配去畫自己所分配到的。 
   &lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
 <t tx="40323217.20151227211938.9">&lt;section&gt;
-    &lt;h1&gt;自評分數85分&lt;/h1&gt;
-    &lt;p&gt;123123123&lt;/p&gt;
+    &lt;h1&gt;自評分數83分&lt;/h1&gt;
+    &lt;p&gt;本周由於老師將Uesr的節點刪除，必須利用git reset --hard將版本切換回去有User時找到自己以前的檔案，並且將裡面內容複製過去新版的班級個人，還有就是依小組網頁為主。
+&lt;/p&gt;
    
 &lt;/section&gt;
 				
@@ -782,16 +785,21 @@
 </t>
 <t tx="40323217.20151227212653.8">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;CPW12筆記&lt;/h1&gt;
-&lt;p&gt;123123123156156
-
+&lt;p&gt;
+1. Fix . Leo-editor 操作步驟。
+&lt;br / &gt;
+2.跟著W12-2的投影片用movie呈現
+&lt;br / &gt;
+3.利用jupyter 把各小組資料整合進去
   &lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
 <t tx="40323217.20151227212653.9">&lt;section&gt;
-    &lt;h1&gt;自評分數85分&lt;/h1&gt;
-    &lt;p&gt;123121561153123&lt;/p&gt;
-   
+    &lt;h1&gt;自評分數84分&lt;/h1&gt;
+    &lt;p&gt;這禮拜目的在於不要用隨身碟開起S
+Star，由於用隨身碟啟動Star速度太慢，因為工作環境不是在C槽所以說要利用fix的功用在每次開機時候設定一下這樣就可以擁有與自己自家的電腦一樣的工作環境 。
+    &lt;/p&gt;   
 &lt;/section&gt;
 				
 </t>
@@ -856,7 +864,7 @@
 <t tx="40323217.20151227213731.8">&lt;section id="hw-task-one"&gt;
     &lt;h1&gt;CPW13筆記&lt;/h1&gt;
 &lt;p&gt;
-1.使用cero畫圖並組立，小組分配
+1.使用cero畫圖並組立，小組分配。
 &lt;br / &gt;
 2.檔案上傳至github並且在小組網誌上能夠顯示，還有把自己所畫零件轉乘.STL檔顯示至班級網站上。
 &lt;br / &gt;
