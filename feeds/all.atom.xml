@@ -4,19 +4,7 @@
 &lt;iframe src="simplest15.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;br / &gt;
-&lt;a href="simplest15.html" target="_blank"&gt;作業一投影片&lt;/a&gt;
-&lt;p&gt;零件圖(一)&lt;/p&gt;
-&lt;img src="https://copy.com/s8GtnAJMFAN8L9kM"width="300"height="300"&gt;
-&lt;br / &gt;
-&lt;iframe src="https://player.vimeo.com/video/142729686" width="500" height="271" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;零件圖(二)&lt;/p&gt;
-&lt;img src="https://copy.com/YNxVf2GqISQKs687"width="300"height="300"&gt;
-&lt;br / &gt;
-&lt;iframe src="https://player.vimeo.com/video/142729685" width="500" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;組合完成圖&lt;/p&gt;
-&lt;img src="https://copy.com/tVUbkHWLl3K9QCeg"width="300"height="300"&gt;
-&lt;br / &gt;
-&lt;iframe src="https://player.vimeo.com/video/142729689" width="500" height="271" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;a href="simplest15.html" target="_blank"&gt;作業十五投影片&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;使用 H1 標題&lt;/h1&gt;
 &lt;p&gt;文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視連續的資料&lt;/p&gt;
 &lt;p&gt;使用. &lt;em&gt;斜體文字&lt;/em&gt;, &lt;strong&gt;黑體文字&lt;/strong&gt;, 以及 &lt;code&gt;單線文字&lt;/code&gt;. 表列資料可以寫為:&lt;/p&gt;
@@ -114,7 +102,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;iframe src="simplest14.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;br / &gt;
-&lt;a href="simplest14.html" target="_blank"&gt;作業一投影片&lt;/a&gt;
+&lt;a href="simplest14.html" target="_blank"&gt;作業十四投影片&lt;/a&gt;
 &lt;p&gt;零件圖(一)&lt;/p&gt;
 &lt;img src="https://copy.com/s8GtnAJMFAN8L9kM"width="300"height="300"&gt;
 &lt;br / &gt;
@@ -224,7 +212,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;iframe src="simplest13.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;br / &gt;
-&lt;a href="simplest13.html" target="_blank"&gt;作業一投影片&lt;/a&gt;
+&lt;a href="simplest13.html" target="_blank"&gt;作業十三投影片&lt;/a&gt;
 &lt;p&gt;零件圖(一)&lt;/p&gt;
 &lt;img src="https://copy.com/s8GtnAJMFAN8L9kM"width="300"height="300"&gt;
 &lt;br / &gt;
@@ -334,7 +322,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;iframe src="simplest12.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;br / &gt;
-&lt;a href="simplest12.html" target="_blank"&gt;作業一投影片&lt;/a&gt;
+&lt;a href="simplest12.html" target="_blank"&gt;作業十二投影片&lt;/a&gt;
 &lt;p&gt;零件圖(一)&lt;/p&gt;
 &lt;img src="https://copy.com/s8GtnAJMFAN8L9kM"width="300"height="300"&gt;
 &lt;br / &gt;
@@ -444,7 +432,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;iframe src="simplest11.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;br / &gt;
-&lt;a href="simplest11.html" target="_blank"&gt;作業一投影片&lt;/a&gt;
+&lt;a href="simplest11.html" target="_blank"&gt;作業十一投影片&lt;/a&gt;
 &lt;p&gt;零件圖(一)&lt;/p&gt;
 &lt;img src="https://copy.com/s8GtnAJMFAN8L9kM"width="300"height="300"&gt;
 &lt;br / &gt;
