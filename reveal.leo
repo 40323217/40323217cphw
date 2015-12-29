@@ -44,6 +44,7 @@
 <v t="40323217.20151229185852.1"><vh>@edit 2015cphww6.md</vh></v>
 <v t="40323217.20151229191415.1"><vh>@edit 2015cphww7.md</vh></v>
 <v t="40323217.20151229191852.1"><vh>@edit 2015cphww8.md</vh></v>
+<v t="40323217.20151229192635.1"><vh>@edit 2015cphww10.md</vh></v>
 <v t="40323217.20151227211737.1"><vh>@edit 2015cphww11.md</vh></v>
 <v t="40323217.20151227212616.1"><vh>@edit 2015cphww12.md</vh></v>
 <v t="40323217.20151227213601.1"><vh>@edit 2015cphww13.md</vh></v>
@@ -380,6 +381,21 @@
 </v>
 </v>
 <v t="40323217.20151229191935.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="40323217.20151229192721.1" a="E"><vh>@clean simplest10.html</vh>
+<v t="40323217.20151229192721.2"><vh>檔案說明</vh></v>
+<v t="40323217.20151229192721.3" a="E"><vh>html 標註</vh>
+<v t="40323217.20151229192721.4" a="E"><vh>body 標註</vh>
+<v t="40323217.20151229192721.5" a="E"><vh>div class="reveal"</vh>
+<v t="40323217.20151229192721.6" a="E"><vh>div class="slides"</vh>
+<v t="40323217.20151229192721.7"><vh>有關我的作業</vh></v>
+<v t="40323217.20151229192721.8"><vh>作業任務一</vh></v>
+<v t="40323217.20151229192721.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="40323217.20151229192721.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -1328,6 +1344,90 @@ solvespace跟Cero的差別在於，由於Cero檔案大小很大，而solvespace�
 <t tx="40323217.20151229191935.9">&lt;section&gt;
     &lt;h1&gt;自評分數85分&lt;/h1&gt;
     &lt;p&gt;本週為統整週將老師以前所上到的東西統整一下方便自己在往後可以更清楚這份資料的來源。&lt;/p&gt;
+   
+&lt;/section&gt;
+				
+</t>
+<t tx="40323217.20151229192721.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="40323217.20151229192721.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="40323217.20151229192721.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="40323217.20151229192721.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="40323217.20151229192721.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="40323217.20151229192721.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323217.20151229192721.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323217.20151229192721.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;四設計二乙CPwork&lt;/h1&gt;
+    &lt;p&gt;40323217 李伯皇 2015/12/29&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="40323217.20151229192721.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;CPW10筆記統整本學期課程&lt;/h1&gt;
+&lt;p&gt;1.資料傳輸
+&lt;br / &gt;
+2.溝通:引導閱讀、錄製影片、投影片
+&lt;br / &gt;
+3.旅遊、商務
+&lt;br / &gt;
+4.nutcracker分析及畫圖
+&lt;br / &gt;
+5.Solvespace and Cero parametric 
+&lt;br / &gt;
+6.運算
+&lt;br / &gt;
+7.3D print 
+&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="40323217.20151229192721.9">&lt;section&gt;
+    &lt;h1&gt;自評分數85分&lt;/h1&gt;
+    &lt;p&gt;本週老師是將以後上課會運用的東西進一步整理  ，有些功能部分還不是很清楚。&lt;/p&gt;
    
 &lt;/section&gt;
 				
