@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL KMOL 課程</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-29T19:00:00+08:00</updated><entry><title>2015 計算機程式 作業W6</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-12-29T19:00:00+08:00</updated><author><name>Openandgit</name></author><id>tag:coursemdetw.github.io,2015-12-29:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為作業六內容&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL KMOL 課程</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-29T19:19:00+08:00</updated><entry><title>2015 計算機程式 作業W8</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w8.html" rel="alternate"></link><updated>2015-12-29T19:19:00+08:00</updated><author><name>Openandgit</name></author><id>tag:coursemdetw.github.io,2015-12-29:reveal/2015cp_hw_w8.html</id><summary type="html">&lt;p&gt;以下為作業八內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="simplest8.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br / &gt;
+&lt;a href="simplest8.html" target="_blank"&gt;作業八投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業W7</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w7.html" rel="alternate"></link><updated>2015-12-29T19:14:00+08:00</updated><author><name>Openandgit</name></author><id>tag:coursemdetw.github.io,2015-12-29:reveal/2015cp_hw_w7.html</id><summary type="html">&lt;p&gt;以下為作業七內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="simplest7.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br / &gt;
+&lt;a href="simplest7.html" target="_blank"&gt;作業七投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業W6</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-12-29T19:00:00+08:00</updated><author><name>Openandgit</name></author><id>tag:coursemdetw.github.io,2015-12-29:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為作業六內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="simplest6.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
